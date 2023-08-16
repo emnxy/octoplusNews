@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bdy_rafa{
+    background-image: url(../images/background_manu.png);
+    position: relative;
+    background-size: cover;
+}
+
+.ata {
+    margin: 3% 0%;
+
+}
+
+.main_rafael {
+    margin: 1%;
+    width: 98%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section_rafael {
+    margin: 1%;
+    width: 98%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box_banner01 {
+    margin: 0%;
+    width: 40%;
+    height: 280px;
+    border-radius: 12px;
+}
+
+.box_banner02 {
+    margin: 0%;
+    width: 28%;
+    height: 280px;
+    border-radius: 12px;
+}
+
+.img_banner {
+    width: 99%;
+    height: 278px;
+    border-radius: 12px;
+}
+
+.txt_banner {
+    color: white !important;
+    background-color: rgba(2, 97, 132, 0.449);
+    width: 50%;
+    height: 50px;
+    margin: 2% 10%;
+}
+
+.titulo_banner {
+    position: relative;
+    top: -12px;
+}
+
+.buton_banner {
+    font-size: 35px;
+    color: white !important;
+}
+
+.box_ctn {
+    font-size: 25px !important;
+}
+
+.box_sushi {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(2, 97, 132, 0.255);
+    width: 70%;
+    height: 50px;
+    margin: 2% 0%;
+}
+
+[data-bs-theme=dark] .carousel .carousel-control-next-icon,
+[data-bs-theme=dark] .carousel .carousel-control-prev-icon,
+[data-bs-theme=dark].carousel .carousel-control-next-icon,
+[data-bs-theme=dark].carousel .carousel-control-prev-icon {
+    filter: invert(0) grayscale(100) opacity(100%) blur(1px) contrast(100%);
+}
+
+.personagens_acessorios{
+    font-size: 24px !important;
+}
+
+
+
+
+
+/*********************************************************//***********************************************************************************/
+.ge{
+
+    background-image: url(../images/bg-img.png);
+    position: relative;
+    background-size: cover;
+}
+.ge1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 80%;
+    min-height: 500px;
+    margin: 5px auto;
+    flex-direction: column;
+}
+.ge_card{
+    width: 40%!important;
+    margin: 10px!important;
+    height: 300px!important;
+    display: flex;
+    justify-content: center;
+
+}
+.ge_card1{
+    width: 60%!important;
+    margin: 10px!important;
+    height: 400px!important;
+    display: flex;
+    justify-content: center;
+
+}
+.ge3{
+    width: 90%;
+    margin: 10px auto;
+}
+.link_ge{
+    font-size: 16px;
+    color: rgb(116, 116, 170);
+}
+
+.ge_bt2{
+    position: relative;
+    left: 30%;
+}
+.link2{
+    text-decoration: none;
+    color: aliceblue;
+}
+/*********************************************************//***********************************************************************************/
+
+.btn-outline-success:hover{
+    background-color: rgb(185, 185, 185)!important;
+}
+.btn-outline-success{
+    border: 1px solid #848484!important;
+    color: #c5c5c5!important;
+}
+
+/*********************************************************//***********************************************************************************/
+
+.bi-check{
+    background-size: 60px;
+}
+.laurao{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*********************************************************//***********************************************************************************/
+
+.fernanda{
+    background-image: url(../images/pi.jpg);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    font-size: 22px;
+}
+
+main.fer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+}
+
+div.liv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cardfer{
+    width: 30% !important;
+    border: 0px !important;
+    margin: 5% 0%;
+}
+section.livia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    
+}
+svg{
+    margin-right: 10px;
+}
+
+.liviaodi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 700px;
+
+}
+
+
+/***********************************************************************************/
+
+/* TELA EQUIPE DE DESENVOLVIMENTO */
+
+.natura{
+   
+    
+/* adicionando imagem de fundo */
+    background: url(../images/imgfundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#telaequipe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#conteinerMavi{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+
+}
+
+.imagesMaria{
+    width: 80%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nimg{
+    width: 200px;
+    height: 200px;
+}
+.tituloequipe{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.equipe{
+    color: aliceblue;
+}
+.dicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 3%;
+    
+}
+.avon{
+    margin: 0px 5px 10px;
+}
+.oboticario, .dior, .eudora{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+.jequiti{
+    color: rgb(220, 215, 215);
+}
+
+/***********************************************************************************/
